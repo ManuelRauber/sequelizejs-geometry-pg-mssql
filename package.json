@@ -1,0 +1,30 @@
+{
+  "name": "sequelizejs-geometry-pg-mssql",
+  "version": "1.0.0",
+  "description": "SequelizeJS with GIS based data and a PostgreSQL and MSSQL adapter",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuelRauber/sequelizejs-geometry-pg-mssql.git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "SequelizeJS",
+    "PostgreSQL",
+    "MSSQL",
+    "GIS"
+  ],
+  "author": "Manuel Rauber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManuelRauber/sequelizejs-geometry-pg-mssql/issues"
+  },
+  "homepage": "https://github.com/ManuelRauber/sequelizejs-geometry-pg-mssql#readme",
+  "dependencies": {
+    "pg": "^4.4.3",
+    "sequelize": "^3.17.1",
+    "tedious": "^1.13.2"
+  }
+}
