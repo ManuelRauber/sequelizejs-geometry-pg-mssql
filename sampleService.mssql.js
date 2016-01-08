@@ -5,7 +5,6 @@ function SampleServiceMSSQL(model) {
         const query = `
 INSERT INTO [SampleModels]
     (
-
         [point],
         [createdAt],
         [updatedAt]
