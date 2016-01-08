@@ -4,12 +4,19 @@ const Sequelize = require('sequelize');
 
 function Database() {
     let sequelize;
+    let dialect;
     let models = {};
 
-    this.models = models;;
+    this.models = models;
+    
+    this.getDialect = function () {
+        return dialect;
+    };
 
     this.initialize = function (useMSSQL) {
         sequelize = useMSSQL ? connectToMSSQL() : connectToPostgreSQL();
+
+        dialect = sequelize.connectionManager.dialectName;
 
         initializeModels();
 

@@ -4,7 +4,7 @@ const SampleServiceMSSQL = require('./sampleService.mssql'),
         SampleServicePostgreSQL = require('./sampleService.postgres');
 
 function SampleService(database) {
-    const adapter = database.models.SampleModel.sequelize.connectionManager.dialectName === 'mssql'
+    const adapter = database.getDialect() === 'mssql'
             ? new SampleServiceMSSQL(database.models.SampleModel)
             : new SampleServicePostgreSQL(database.models.SampleModel);
 
