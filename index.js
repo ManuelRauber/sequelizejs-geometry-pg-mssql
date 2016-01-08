@@ -5,7 +5,7 @@ const database = require('./database'),
 
 let service;
 
-database.initialize(true)
+database.initialize(false)
     .then(() => {
         service = new Service(database);
 
