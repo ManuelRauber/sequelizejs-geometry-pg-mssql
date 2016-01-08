@@ -1,5 +1,5 @@
-# SequelizeJS + GIS + PostgreSQL + MSSQL
+# Using geo-based data with SequelizeJS utilizing PostgreSQL and MS SQL Server in Node.js
 
-This repository contains a sample project with SequelizeJS to use GIS based data with PostgreSQL and MSSQL.
+This repository contains a sample project with SequelizeJS to use GIS based data with PostgreSQL and MS SQL Server.
 
-Please refer to the blog post for more information.
+Please refer to the [blog post](http://manuel-rauber.com/2016/01/08/using-geo-based-data-with-sequelizejs-utilizing-postgresql-and-ms-sql-server-in-node-js/) for more information.
